@@ -1,12 +1,3 @@
-<template>
-  <div>
-    <section-1 />
-    <section-about-company />
-    <section-2 />
-    <section-offer />
-    <section-testimonial />
-  </div>
-</template>
 
 <script>
 import Section1 from "../components/home-section/Section1.vue";
@@ -48,3 +39,12 @@ export default {
   },
 };
 </script>
+<template>
+  <div>
+    <section-1 />
+    <section-about-company />
+    <section-2 />
+    <section-offer />
+    <section-testimonial />
+  </div>
+</template>

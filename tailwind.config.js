@@ -1,5 +1,14 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  purge: {
+    enabled: true,
+    content: [
+      './src/**/*.html',
+      './src/**/*.vue',
+      './src/components/**/*.html',
+      './src/**/*.jsx',
+      // Add more paths to your template files if needed
+    ],
+  },
   theme: {
     colors: {
       blue: "#1fb6ff",
